@@ -1,0 +1,9 @@
+{{yield (hash
+    header=(component 'panel-header'
+        collapsed=collapsed
+        collapsable=collapsable
+        onClick=(action 'toggle')
+    )
+    body=(component 'panel-body')
+    footer=(component 'panel-footer')
+)}}

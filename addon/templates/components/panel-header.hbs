@@ -1,0 +1,11 @@
+<div class="card-header" {{action onClick}} style="{{style}}">
+    <div class="card-header-text d-inline-block">
+        {{yield}}
+    </div>
+
+    {{#if collapsable}}
+        <div class="card-actions d-inline-block pull-right">
+            <i class="{{if collapsed collapsedIcon defaultIcon}}" aria-hidden="true"></i>
+        </div>
+    {{/if}}
+</div>
