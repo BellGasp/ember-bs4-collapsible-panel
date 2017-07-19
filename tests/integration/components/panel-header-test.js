@@ -56,11 +56,11 @@ test('it renders using the collapsed state', function(assert) {
   assert.equal(this.$('.card-header .card-header-text').text().trim(), 'Title');
 });
 
-test('it doesn\'t render the actions div when it\'s not collapsable', function(assert) {
+test('it doesn\'t render the actions div when it\'s not collapsible', function(assert) {
   assert.expect(4);
 
   this.render(hbs `
-      {{#panel-header collapsable=false}}
+      {{#panel-header collapsible=false}}
         Title
       {{/panel-header}}
     `);

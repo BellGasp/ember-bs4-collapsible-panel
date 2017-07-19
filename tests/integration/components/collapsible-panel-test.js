@@ -1,7 +1,7 @@
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
 
-moduleForComponent('collapsable-panel', 'Integration | Component | collapsable panel', {
+moduleForComponent('collapsible-panel', 'Integration | Component | collapsible panel', {
   integration: true
 });
 
@@ -9,9 +9,9 @@ test('it renders', function(assert) {
 
   // Template block usage:
   this.render(hbs`
-    {{#collapsable-panel}}
+    {{#collapsible-panel}}
       template block text
-    {{/collapsable-panel}}
+    {{/collapsible-panel}}
   `);
 
   assert.equal(this.$().text().trim(), 'template block text');

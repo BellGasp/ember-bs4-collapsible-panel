@@ -1,1 +1,0 @@
-export { default } from 'gasp-collapsable-panel/components/collapsable-panel';

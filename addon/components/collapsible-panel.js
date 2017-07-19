@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import layout from '../templates/components/collapsable-panel';
+import layout from '../templates/components/collapsible-panel';
 
 const { Component } = Ember;
 
@@ -9,12 +9,12 @@ export default Component.extend({
   classNames: 'card',
 
   collapsed: false,
-  collapsable: true,
+  collapsible: true,
   collapseFooter: true,
 
   actions: {
     toggle() {
-      if (!this.get('collapsable')) {
+      if (!this.get('collapsible')) {
         return;
       }
 

@@ -1,1 +1,1 @@
-export { default } from 'gasp-collapsable-panel/components/panel-footer';
+export { default } from 'ember-bs4-collapsible-panel/components/panel-footer';

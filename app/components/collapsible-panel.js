@@ -1,0 +1,1 @@
+export { default } from 'ember-bs4-collapsible-panel/components/collapsible-panel';

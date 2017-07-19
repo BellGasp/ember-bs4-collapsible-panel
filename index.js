@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'gasp-collapsable-panel'
+  name: 'ember-bs4-collapsible-panel'
 };

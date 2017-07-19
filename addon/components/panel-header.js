@@ -13,7 +13,7 @@ export default Component.extend({
   layout,
   tagName: '',
 
-  collapsable: true,
+  collapsible: true,
   collapsed: false,
 
   defaultIcon: 'fa fa-minus',
@@ -21,8 +21,8 @@ export default Component.extend({
 
   onClick() { },
 
-  style: computed('collapsable', function() {
-    return this.get('collapsable') ?
+  style: computed('collapsible', function() {
+    return this.get('collapsible') ?
       htmlSafe('cursor: pointer;') :
       htmlSafe('');
   })

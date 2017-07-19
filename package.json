@@ -1,17 +1,27 @@
 {
-  "name": "gasp-collapsable-panel",
-  "version": "0.1.0",
-  "description": "An Ember addon that enables quick Bootstap 4 collapsable panels.",
+  "name": "ember-bs4-collapsible-panel",
+  "version": "0.0.0-beta.1",
+  "description": "An Ember addon that enables quick Bootstap 4 collapsible panels.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "bootstrap",
+    "collapsible",
+    "panel",
+    "card"
   ],
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "Jean-Philippe Roy",
+    "email": "ohnoesmyoreos@gmail.com"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BellGasp/ember-bs4-collapsible-panel.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",

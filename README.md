@@ -1,15 +1,15 @@
-GASP Collapsable Panel
+GASP collapsible Panel
 ============================
 
-This project contains the necessary tools needed to create Bootstrap 4 collapsable panels (now cards ¯\\_(ツ)_/¯) using an Ember contextual component.
+This project contains the necessary tools needed to create Bootstrap 4 collapsible panels (now cards ¯\\_(ツ)_/¯) using an Ember contextual component.
 
 ### Basic Usage
-Using the `collapsable-panel`, you have acces to the three main sections of the panel: the header, the body and the footer. They are all optional, but of course -- without a body, you'll only end up with an empty `div` with the `card` class.
+Using the `collapsible-panel`, you have acces to the three main sections of the panel: the header, the body and the footer. They are all optional, but of course -- without a body, you'll only end up with an empty `div` with the `card` class.
 
 It's up to the developer to fill in the header, body and footer.
 
 ```hbs
-{{#collapsable-panel as |panel|}}
+{{#collapsible-panel as |panel|}}
     {#panel.header}}
         [...]
     {{/panel.header}}
@@ -21,7 +21,7 @@ It's up to the developer to fill in the header, body and footer.
     {#panel.footer}}
         [...]
     {{/panel.footer}}
-{{/collapsable-panel}}
+{{/collapsible-panel}}
 ```
 
 ### Customizations
@@ -30,18 +30,18 @@ Some customizations are possible.
 | Property       | Description          | Default Value |
 |:-------------:|:-------------:|:-------------:|
 | `collapsed` | Used to specify the panel's state; whether it is collapsed or not. | `false` |
-| `collapsable` | Used to specify if the panel has the ability to collapse. | `true` |
+| `collapsible` | Used to specify if the panel has the ability to collapse. | `true` |
 | `collapseFooter` | Used to specify if the footer should collapse with the body when the user collapses the panel. | `true` |
 
 ```hbs
-{{#collapsable-panel
+{{#collapsible-panel
     collapsed=false
-    collapsable=true
+    collapsible=true
     collapseFooter=true
     as |panel|
 }}
     [...]
-{{/collapsable-panel}}
+{{/collapsible-panel}}
 ```
 
 | Property | Description | Default Value |
