@@ -10,15 +10,15 @@ It's up to the developer to fill in the header, body and footer.
 
 ```hbs
 {{#collapsible-panel as |panel|}}
-    {#panel.header}}
+    {{#panel.header}}
         [...]
     {{/panel.header}}
 
-    {#panel.body}}
+    {{#panel.body}}
         [...]
     {{/panel.body}}
 
-    {#panel.footer}}
+    {{#panel.footer}}
         [...]
     {{/panel.footer}}
 {{/collapsible-panel}}
