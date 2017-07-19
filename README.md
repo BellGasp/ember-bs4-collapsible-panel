@@ -1,5 +1,9 @@
-GASP collapsible Panel
-============================
+# Ember Bootstrap 4 Collapsible Panel
+
+[![npm version](https://badge.fury.io/js/ember-bs4-collapsible-panel.svg)](https://badge.fury.io/js/ember-bs4-collapsible-panel)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-bs4-collapsible-panel.svg)](https://emberobserver.com/addons/ember-bs4-collapsible-panel)
+[![Build Status](https://travis-ci.org/BellGasp/ember-bs4-collapsible-panel.svg?branch=master)](https://travis-ci.org/BellGasp/ember-bs4-collapsible-panel)
+[![Code Climate](https://codeclimate.com/github/BellGasp/ember-dashboard-controls/badges/gpa.svg)](https://codeclimate.com/github/BellGasp/ember-dashboard-controls)
 
 This project contains the necessary tools needed to create Bootstrap 4 collapsible panels (now cards ¯\\_(ツ)_/¯) using an Ember contextual component.
 
