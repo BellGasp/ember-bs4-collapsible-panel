@@ -1,6 +1,6 @@
 {
   "name": "ember-bs4-collapsible-panel",
-  "version": "0.0.0-beta.3",
+  "version": "0.0.0-beta.4",
   "description": "An Ember addon that enables quick Bootstap 4 collapsible panels.",
   "keywords": [
     "ember-addon",
